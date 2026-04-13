@@ -5,30 +5,35 @@ CLI tool that converts what3words addresses to latitude/longitude coordinates an
 ## Installation
 
 ```bash
+./build.sh
+```
+
+Or manually:
+```bash
 cargo build --release
 ```
 
-The compiled binary will be at: `target/release/three_words_to_coords`
+The compiled binary will be at: `target/release/3W2Coords`
 
 ## Usage
 
 ```bash
 # Single what3words to coordinates
-./three_words_to_coords prices.slippery.traps
+./3W2Coords prices.slippery.traps
 
 # Coordinates to what3words (reverse lookup)
-./three_words_to_coords "48.858358,2.294473" --reverse
+./3W2Coords "48.858358,2.294473" --reverse
 
 # File with multiple locations
-./three_words_to_coords test.txt
+./3W2Coords test.txt
 
 # Specify output file
-./three_words_to_coords test.txt output.txt
+./3W2Coords test.txt output.txt
 
 # Output format options
-./three_words_to_coords prices.slippery.traps -f text   # default: words,lat,lng
-./three_words_to_coords prices.slippery.traps -f csv    # comma-separated
-./three_words_to_coords prices.slippery.traps -f json   # JSON array
+./3W2Coords prices.slippery.traps -f text   # default: words,lat,lng
+./3W2Coords prices.slippery.traps -f csv    # comma-separated
+./3W2Coords prices.slippery.traps -f json   # JSON array
 ```
 
 ## Options

@@ -1,1 +1,4 @@
-["{\"lat\":-35.018017,\"lng\":138.656941,\"words\":\"Grapes.scenes.lists\"}","{\"lat\":-33.868976,\"lng\":151.208187,\"words\":\"eating.milky.sobs\"}","{\"lat\":-33.870001,\"lng\":151.210006,\"words\":\"guard.cling.radio\"}"]
+grapes.scenes.lists,-35.018017,138.656941
+eating.milky.sobs,-33.868976,151.208187
+guard.cling.radio,-33.870001,151.210006
+prices.slippery.traps,48.858358,2.294473

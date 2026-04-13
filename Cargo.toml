@@ -1,7 +1,11 @@
 [package]
 name = "three_words_to_coords"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+
+[[bin]]
+name = "3W2Coords"
+path = "src/main.rs"
 
 [dependencies]
 reqwest = { version = "0.11", features = ["json", "blocking"] }
